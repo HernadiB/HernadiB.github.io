@@ -1,3 +1,2 @@
-Willard Carroll „Will” Smith, Jr. (Philadelphia, Pennsylvania, 1968. szeptember 25. –) Oscar-díjra jelölt amerikai színész, többszörös Grammy-díjnyertes hiphopelőadó. Azon kevés ember egyike, akik az Egyesült Államok szórakoztatóiparának három jelentős ágában is sikert élveznek. A Newsweek a bolygó legbefolyásosabb színészének nevezte.
-
-Filmjeivel rendre hatalmas sikert arat, a legismertebbek között találjuk A függetlenség napját, a Men in Black – Sötét zsarukat, a Legenda vagyokot. Kritikai elismerést Oscar- és Golden Globe-jelölés formájában az Ali és A boldogság nyomában hozott számára, melyekben valós személyt alakított.
+- Willard Carroll „Will” Smith, Oscar-díjra jelölt amerikai színész, többszörös Grammy-díjnyertes hiphopelőadó. 
+- Azon kevés ember egyike, akik az Egyesült Államok szórakoztatóiparának három jelentős ágában is sikert élveznek. A Newsweek a bolygó legbefolyásosabb színészének nevezte.
