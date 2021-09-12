@@ -81,7 +81,7 @@ foreach($foszereplok as $varos)
     {
         if ($foglalkozas == "Szinész")
         {
-            echo "Szinkron:\t" . $varos["szinesz"];
+            echo "Szinész:\t" . $varos["szinesz"];
         }
         else if ($foglalkozas == "Szereplő")
         {
