@@ -1,0 +1,71 @@
+Tűzhányók
+
+A vulkánok vagy tűzhányók a Föld felszínének olyan hasadékai, amelyeken a felszínre jut a magma, az asztenoszféra izzó kőzetolvadéka. A Föld vulkánjait kialakulásuk oka szerint két csoportba soroljuk: többségük a távolodó és közeledő kőzetlemezek határain (az aktív lemezhatárokon) alakul ki, kisebb részük az aktív peremszegélyektől távol, a köpenyhőoszlopok (köpenycsóvák) fölötti forrópontokon jön létre.
+
+A magma felszíni tevékenysége a vulkanizmus, ebből keletkeznek világszerte a vulkáni kúpok, vulkáni hegységek. Vulkanizmusról csak akkor beszélünk, ha a magma eléri a Föld felszínét, ti. ilyenkor láva lesz belőle. Olyankor, amikor a magma a mélységben megreked, és ott kristályosodik kőzetté, a folyamat neve magmatizmus. A vulkáni tevékenység és a hozzá kapcsolódó jelenségek vizsgálatával a vulkanológia foglalkozik.
+
+A vulkánok felépítése
+
+Egy vulkán fő szerkezeti elemei:
+
+    magmakamra (vagy magmatűzhely) – olvadt kőzetekkel teli üreg a Föld szilárd kérgében. Az olvadék a rétegnyomás hatására a törésvonalak mentén a felszín (alacsonyabb nyomás) felé mozdul el, széttolva, felboltozva, illetve magába olvasztva a felette levő kőzeteket. A magmakamrák helyzetét nehéz meghatározni, ezért elsősorban a felszín közeli (1–10 km mély) kamrákat ismerjük. Ha a magma hosszabb ideig tartózkodik a kamrában, összetevői sűrűségének megfelelően rétegeződni kezd. Ahogy kihűl, a szilikátos olvadék egyre kevesebb vizet képes oldatban tartani, és gáztalanodik. A felszabaduló vízgőz (szén-dioxid, kénes gázok stb.) jelentősen megnövelik a kamrában uralkodó nyomást, és amikor a belső nyomás túllépi a rétegnyomást, a vulkán robbanásos kitöréssel kezd működni. Ha a feltörekvő magma megreked a földkéregben, és ott szilárdul meg, mélységi magmás testek keletkeznek, amiket alakjuk és helyzetük függvényében: batolitnak, lakkolitnak, szillnek, kőzettelérnek (dyke-nak) stb. nevezünk.
+    vulkáni csatorna (avagy diatréma) egy olyan nyílás a földkéregben, amelyen a magma a felszínre tör. A diatrémát általában automagmatikus breccsa tölti ki: a megszilárdult magmában a csatorna oldalairól leszakított kőzetdarabok „úsznak”.
+    vulkáni kráter – a felszínnek az a tölcsér alakú mélyedése a kürtő felszíni végénél, amelyen a törmelékanyag és a láva a felszínre jut. Alakja, átmérője és mélysége változó.
+    vulkáni kúpot – a felszínre hozott törmelékanyag és láva építi fel.
+    kaldera – a robbanásos kitörések eredménye. Olyankor képződik, amikor a magmakamrában annyira megnő a túlnyomás, hogy a felszabadult gázok kúp alakban lerobbantják a magmakamrát fedő kőzeteket. Ezután a fedő maradéka koncentrikus törésvonalak mentén berogy a kiürült gázok helyére. A teljes beomló terület elérheti a több száz, vagy akár a pár ezer négyzetkilométert is.
+    barrankó - a vulkáni kúp palástját felszabdaló, sugárirányú eróziós árok, törmelékfolyás, vízmosás megnevezése.
+
+További információ
+
+A vulkáni kitörések előrejelzésének módszerei
+
+    Szeizmológia – a vulkáni kitörések előrejelző folyamata a földrengés, melyet a feltörekvő magma okoz. Három típusa különböztethető meg: a rövid idejű földrengések a felszín alatti magmakamrák növekedése során pattannak ki; a hosszú idejű földrengéseket a vulkán belsejében felgyülemlett gázok nyomásváltozása okozza; a harmonikus rengéseket a felfelé törekvő magma okozza (nevét az általa okozott morajló hang után kapta). A szeizmikus jelenségek értelmezése nehéz, de egyben a legjobb előrejelzője a kitöréseknek, főleg ha a hosszú idejű és a harmonikus rengések gyakoriakká válnak.
+    Gázexhalációk vizsgálata – amint a magma felszínközelbe kerül és lecsökken a nyomás, a gázok kiválnak. A legjellemzőbb gáz a kén-dioxid, amelynek nagy mennyiségű felszínre kerülése egy közelgő kitörés előjele lehet.
+    Felszíni deformációk monitorozása – a felszín alatti magma mennyiségének növekedése a felszín deformálódását okozhatja, emiatt a potenciálisan aktív vulkánok méreteit és alakját pontosan monitorizálják
+    Geotermika – a magma és a feltörekvő gázok hidrotermás jelenségeket okoznak, amelyek a Föld belső hőjének változását idézik elő.
+
+Évtized vulkánok
+
+Az ENSZ által az 1990-es években támogatott Természeti Katasztrófák Megelőzésének Évtizede (International Decade for Natural Disaster Reduction) program keretén belül a Nemzetközi Vulkanológiai és Geokémiai Szervezet (International Association of Volcanology and Chemistry of the Earth's Interior) felállított egy 16 vulkánból álló listát („Évtized vulkánok”), melyek tanulmányozását prioritásként kell kezelni.
+
+projekt lényege minél jobban megismerni ezek működését, esetleges kitörések katasztrofális következményeinek elkerülése végett, illetve tanulmányozásuk során bővebb ismeretet szerezni a bennük zajló folyamatokról. A következő vulkánok szerepelnek a listán: 
+
+    Avacsinszkij-Koriakszkij, Oroszország
+    Colima, Mexikó
+    Etna, Olaszország
+    Galeras, Kolumbia
+    Mauna Loa, Amerikai Egyesült Államok
+    Merapi, Indonézia
+    Nyiragongo, Kongói Demokratikus Köztársaság
+    Mount Rainier, Amerikai Egyesült Államok
+
+    Szakuradzsima, Japán
+    Santamaria, Guatemala
+    Szantorini, Görögország
+    Taal, Fülöp-szigetek
+    Teide, Spanyolország
+    Ulawun, Pápua Új-Guinea
+    Unzen, Japán
+    Vezúv, Olaszország
+
+Etna
+
+Az Etna (szicíliai nyelven Muncibeddu, olaszul Mongibello vagy Etna, latinul Aetna) egy napjainkban is aktív vulkán Szicília északkeleti részén, Catania és Messina között, a sziget keleti partján.
+
+A vulkánok általános felépítése:
+
+    Magmakamra
+    Fedőrétegek
+    Vulkáni csatorna
+    Talaj
+    Intrúzió (szill)
+    Oldalcsatorna
+    Hamurétegek
+    Hegyoldal
+    Lávarétegek
+    Torok
+    Parazitakráter
+    Láva
+    Főkürtő
+    Kráter
+    Hamufelhő
