@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = ElektronikaiSzakuzletWebAppTest
+build_property.ProjectDir = D:\Suli\2-14.A Technikusi képzés\Asztali és mobilalkalmazások fejlesztése és tesztelése\2021.10.01\ElektronikaiSzakuzletWebAppTest\ElektronikaiSzakuzletWebAppTest\
