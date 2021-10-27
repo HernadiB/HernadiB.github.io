@@ -61,7 +61,7 @@ namespace chess.Entities
             }
 
             if (!(isPossible))
-                Console.WriteLine("Rook cant move over other piece");
+                Console.WriteLine("A bástya nem léphet át azonos bábukat!");
 
             return isPossible;
         }

@@ -54,14 +54,14 @@ namespace chess.Entities
             }
             if (!diagonally && !leftright && !updown)
             {
-                Console.WriteLine("Queen can move diagonally, left, right bottom up only");
+                Console.WriteLine("A királynő csak átlósa, balra, jobbra vagy fel és le mozoghat!");
                 isPossible = false;
                 return isPossible;
             }
 
             if (board[nextColumn, nextRow].getColor() == this.getColor())
             {
-                Console.WriteLine("You can't move your queen on top of your other piece");
+                Console.WriteLine("Nem mozoghat a királynő olyan mezőre ahol saját bábu áll!");
                 return false;
             }
             if (color == 'B')
@@ -74,7 +74,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, g] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -85,7 +85,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, g] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -100,7 +100,7 @@ namespace chess.Entities
                         {
                             if (!(board[currentColumn, i] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -111,7 +111,7 @@ namespace chess.Entities
                         {
                             if (!(board[currentColumn, i] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -125,7 +125,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, currentRow] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -136,7 +136,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, currentRow] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -155,7 +155,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, g] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -166,7 +166,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, g] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -180,7 +180,7 @@ namespace chess.Entities
                         {
                             if (!(board[currentColumn, i] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -191,7 +191,7 @@ namespace chess.Entities
                         {
                             if (!(board[currentColumn, i] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -205,7 +205,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, currentRow] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }
@@ -216,7 +216,7 @@ namespace chess.Entities
                         {
                             if (!(board[i, currentRow] is Blank))
                             {
-                                Console.WriteLine("Queen cannot go over other piece");
+                                Console.WriteLine("A királynő nem léphet át más bábukat!");
                                 isPossible = false;
                             }
                         }

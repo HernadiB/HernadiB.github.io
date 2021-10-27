@@ -28,7 +28,7 @@ namespace chess.Entities
             {
                 if (board[nextColumn, nextRow] is Blank)
                 {
-                    Console.WriteLine("Pawn can only eat that direction, other than that only move forward");
+                    Console.WriteLine("A gyalog csak abba az irányba tud leütni, más esetben csak előre halad!");
                     return false;
                 }
                 else { totalMoves++; return true; }
@@ -36,7 +36,7 @@ namespace chess.Entities
             }
             else if (totalMoves > 0 && (currentMinusNextRow > 1 || currentMinusNextRow < -1 || currentMinusNextColumn > 1 || currentMinusNextColumn < -1))
             {
-                Console.WriteLine("Pawn can only eat one square diagonally");
+                Console.WriteLine("A gyalog csak átlósan és csak egy egységben tudja leütni ellenfelét!");
                 return false;
             }
             if (totalMoves == 0)
@@ -49,7 +49,7 @@ namespace chess.Entities
                         if (!(board[i, currentRow] is Blank))
                         {
                             anyPieceBlocking = true;
-                            Console.WriteLine("There is other piece blocking you from doing that move");
+                            Console.WriteLine("Útban van egy másik bábu így oda nem lehet lépni!");
                             return false;
                         }
                     }
@@ -62,7 +62,7 @@ namespace chess.Entities
                         if (!(board[i, currentRow] is Blank))
                         {
                             anyPieceBlocking = true;
-                            Console.WriteLine("There is other piece blocking you from doing that move");
+                            Console.WriteLine("Útban van egy másik bábu így oda nem lehet lépni!");
                             return false;
                         }
                     }
@@ -84,7 +84,7 @@ namespace chess.Entities
             {
                 if (!(board[nextColumn, nextRow] is Blank))
                 {
-                    Console.WriteLine("Cannot do that move, there is other piece blocking you");
+                    Console.WriteLine("Érvénytelen lépés, egy másik bábu útban van!");
                     return false;
                 }
                 if (currentPieceColor == 'W')
@@ -101,9 +101,9 @@ namespace chess.Entities
                     }
             }
             if (totalMoves == 0)
-                Console.WriteLine("Pawn can move 1 or two squares in its first move");
+                Console.WriteLine("A gyalog az első körben 1 vagy 2 lépést tehet előre!");
             if (totalMoves > 0)
-                Console.WriteLine("Pawn can only move one square");
+                Console.WriteLine("A gyalog egy lépést tehet előre!");
             return false;
 
         }

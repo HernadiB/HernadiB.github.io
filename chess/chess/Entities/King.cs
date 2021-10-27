@@ -28,7 +28,7 @@ namespace chess.Entities
                         if (!(board[currentColumn, i] is Blank))
                         {
                             isPossible = false;
-                            Console.WriteLine("Castling isn't possible, there are pieces inbetween");
+                            Console.WriteLine("A sáncolás nem lehetsége, vannak más bábuk az útban!");
                             return isPossible;
                         }
                     }
@@ -40,7 +40,7 @@ namespace chess.Entities
                         if (!(board[currentColumn, i] is Blank))
                         {
                             isPossible = false;
-                            Console.WriteLine("Castling isn't possible, there are pieces inbetween");
+                            Console.WriteLine("A sáncolás nem lehetsége, vannak más bábuk az útban!");
                             return isPossible;
                         }
                     }
@@ -57,14 +57,14 @@ namespace chess.Entities
                     }
                     else
                     {
-                        Console.WriteLine("King already moved, castling is only possible if it was its first move");
+                        Console.WriteLine("A király már mozgott előzetesen, a sáncolás csak akkor lehetséges ha ez az első lépése!");
                         isPossible = false;
                         return isPossible;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Rook already moved, castling is only possible if it was its first move");
+                    Console.WriteLine("A bástya már mozgott előzetesen, a sáncolás csak akkor lehetséges ha ez az első lépése!");
                     isPossible = false;
                     return isPossible;
                 }
@@ -72,7 +72,7 @@ namespace chess.Entities
 
             if (currentMinusNextRow > 1 || currentMinusNextRow < -1 || currentMinusNextColumn > 1 || currentMinusNextColumn < -1)
             {
-                Console.WriteLine("King can only move one square in any direction");
+                Console.WriteLine("A király csak egyet tud mozogni bármely irányba!");
                 isPossible = false;
             }
             if (isPossible && board[nextColumn, nextRow].getColor() != this.getColor())
@@ -83,7 +83,7 @@ namespace chess.Entities
             }
             if (isPossible && !(board[nextColumn, nextRow] is Blank))
             {
-                Console.WriteLine("King cannot go on top of other piece");
+                Console.WriteLine("A király nem léphet olyan mezőre ahol saját bábu áll!");
                 isPossible = false;
             }
 

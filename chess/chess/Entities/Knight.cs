@@ -23,7 +23,7 @@ namespace chess.Entities
                 totalMoves++;
                 return true;
             }
-            Console.WriteLine("Knight cant do that move, it can only move in L shape");
+            Console.WriteLine("A lovas nem tud olyan lépést végrehajtani, csak L alakban tud lépni!");
             return false;
         }
 

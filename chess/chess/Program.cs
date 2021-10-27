@@ -11,6 +11,17 @@ namespace ConsoleApp8
     {
         static void Main(string[] args)
         {
+
+            Console.Write
+               ("W-White(Fehér)\n" +
+                "B-Black(Fekete)\n" +
+                "P-Pawn(Gyalog)\n" +
+                "N-Knight(Lovag)\n" +
+                "R-Rook(Bástya)\n" +
+                "Q-Queen(Királynő)\n"+
+                "K-King(Király)\n");
+
+
             int moves = 0;
             ChessPiece[,] board = { { new Rook('W'), new Knight('W'), new Bishop('W'), new Queen('W'), new King('W'), new Bishop('W'), new Knight('W'), new Rook('W')},
                                     { new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W')},
@@ -37,7 +48,7 @@ namespace ConsoleApp8
                         if (newBoard[0, 0] == null)
                         {
                             string name = moves % 2 == 0 ? "White" : "Black";
-                            Console.WriteLine("{0} player WINS", name);
+                            Console.WriteLine("{0} játékos nyert", name);
                             return;
                         }
                         printBoard(newBoard);
@@ -74,21 +85,21 @@ namespace ConsoleApp8
             {
                 if (moves % 2 == 0)         //Checking if its white's turn
                 {
-                    Console.WriteLine("It is WHITE's turn\nWhich piece do you want to move and to where?:(ex: 'A1A2')");
+                    Console.WriteLine("Most a fehér köre következik\nMelyik bábut és hova mozgassuk?:(pl: 'A1A2')");
                     whoseTurn = 'W';
                 }
                 if (moves % 2 != 0)          // checking if its black's turn
                 {
-                    Console.WriteLine("It is BLACK's turn\nWhich piece do you want to move and to where?:(ex: 'A1A2')");
+                    Console.WriteLine("Most a fekete köre következik\nMelyik bábut és hova mozgassuk?:(pl: 'A1A2')");
                     whoseTurn = 'B';
                 }
                 wantToMove = Console.ReadLine();
                 if (wantToMove == "")
-                    Console.WriteLine("You pressed ENTER without any number");        //If user pressed nothing, looping over again
+                    Console.WriteLine("ENTER-t ütöttél érvényes számok nélkül");        //If user pressed nothing, looping over again
 
 
                 else if (wantToMove.Length != 4)
-                    Console.WriteLine("You entered less than required, enter which piece you want to move and to where"); // if user entered less than 4 letters, loop over again
+                    Console.WriteLine("A megadott lépés hiányos, add meg melyik bábut és hova mozgassuk!"); // if user entered less than 4 letters, loop over again
 
                 else
                     wantToMoveValid = checkUserInput(wantToMove);       // If user didnt press enter without any value or less than 4 letters, then checking if the letters are legit
@@ -138,9 +149,9 @@ namespace ConsoleApp8
             if (validNumber && validLetter)
                 return true;
             if (!validLetter)
-                Console.WriteLine("You entered an invalid letter");
+                Console.WriteLine("Érvénytelen betűt adtál meg!");
             if (!validNumber)
-                Console.WriteLine("You entered an invalid number");
+                Console.WriteLine("Érvénytelen számot adtál meg!");
             return false;
         }
 
@@ -156,12 +167,12 @@ namespace ConsoleApp8
             int row = tempLocation[2] - '0';
             if (whoseTurn == 'B' && board[column, row].getColor() == 'W')        // If its blackplayer's turn and a white soldier was picked
             {
-                Console.WriteLine("You chose a white soldier and its black player's turn");
+                Console.WriteLine("Egy fehér bábut választottál, de ez most a fekete köre!");
                 checkWhoseTurn = false;
             }
             if (whoseTurn == 'W' && board[column, row].getColor() == 'B')
             {
-                Console.WriteLine("You chose a black soldier and its white player's turn");
+                Console.WriteLine("Egy fekete bábut választottál, de ez most a fehér köre!");
                 checkWhoseTurn = false;
             }
             return checkWhoseTurn;
@@ -278,7 +289,7 @@ namespace ConsoleApp8
 
             else
             {
-                Console.WriteLine("You ate his " + board[column, row].GetType().Name);
+                Console.WriteLine("Leütötted a(z) ellenfél " + board[column, row].GetType().Name);
                 board[pieceLocationColumn, pieceLocationRow] = new Blank('E');
                 if (board[column, row].GetType().Name == "King")
                 {
@@ -323,7 +334,7 @@ namespace ConsoleApp8
                     row = 7;
                     break;
                 default:
-                    Console.WriteLine("BUG IN CHANGE TO");
+                    Console.WriteLine("HIBA");
                     break;
             }
             string moveToLocation = "" + (column - 1) + "|" + row;

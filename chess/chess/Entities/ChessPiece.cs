@@ -21,7 +21,7 @@ namespace chess.Entities
                 this.color = color;
             }
             else
-                Console.WriteLine("You entered an invalid color, choose W for white or B for black");
+                Console.WriteLine("Érvénytelen színt adtál meg, válaszd a  W-t a fehérhez vagy a B-t a feketéhez");
             return;
         }
         public char getColor()

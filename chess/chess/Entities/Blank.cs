@@ -15,13 +15,13 @@ namespace chess.Entities
         }
         public bool setMove(ChessPiece[,] board, int column, int move, int row, int colum)
         {
-            Console.WriteLine("Empty spot cannot be chosen");
+            Console.WriteLine("Üres mezőt nem lehet kiválasztani!");
             return false;
         }
 
         public void setName(char color)
         {
-            name = color == ' ' ? "  " : "";
+            name = color == ' ' ? "  " : "  ";
         }
         public override string ToString()
         {

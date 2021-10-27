@@ -69,7 +69,7 @@ namespace chess.Entities
                 int tempNextRow = currentMinusNextRow > 0 ? currentMinusNextRow : -(currentMinusNextRow);
                 if (!(tempNextColumn == tempNextRow))
                 {
-                    Console.WriteLine("Bishop can only move any number of squares diagonally");
+                    Console.WriteLine("A futó csak átlósan viszont akármennyit léphet egy irányba!");
                     isPossible = false;
                     return isPossible;
                 }
@@ -77,7 +77,7 @@ namespace chess.Entities
 
             if (!(isPossible))
             {
-                Console.WriteLine("Bishop cannot go over other piece");
+                Console.WriteLine("A futó nem léphet át bábut!");
             }
             return isPossible;
         }
