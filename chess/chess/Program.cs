@@ -61,7 +61,7 @@ namespace ConsoleApp8
         {
             Console.WriteLine("");
             Console.WriteLine("  A   B   C   D   E   F   G   H");
-            Console.WriteLine("+---+---+---+---+---+---+---+---+");
+            Console.WriteLine(" --- --- --- --- --- --- --- --- ");
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 for (int g = 0; g < board.GetLength(1); g++)
@@ -71,7 +71,7 @@ namespace ConsoleApp8
                 }
                 Console.Write("|   " + (i + 1));
                 Console.WriteLine("");
-                Console.WriteLine("+---+---+---+---+---+---+---+---+");
+                Console.WriteLine(" --- --- --- --- --- --- --- --- ");
             }
             Console.WriteLine("");
         }
@@ -289,8 +289,8 @@ namespace ConsoleApp8
 
             else
             {
-                Console.WriteLine("Leütötted a(z) ellenfél " + board[column, row].GetType().Name);
-                board[pieceLocationColumn, pieceLocationRow] = new Blank('E');
+                Console.WriteLine("Leütötted a(z) ellenfél " + board[column, row].GetType().Name + "-(e)t");
+                board[pieceLocationColumn, pieceLocationRow] = new Blank(' ');
                 if (board[column, row].GetType().Name == "King")
                 {
                     board[0, 0] = null;
