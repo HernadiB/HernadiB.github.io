@@ -21,7 +21,7 @@ namespace chess.Entities
 
         public void setName(char color)
         {
-            name = color == 'E' ? "EE" : "";
+            name = color == ' ' ? "  " : "";
         }
         public override string ToString()
         {

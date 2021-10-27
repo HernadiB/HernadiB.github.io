@@ -14,10 +14,10 @@ namespace ConsoleApp8
             int moves = 0;
             ChessPiece[,] board = { { new Rook('W'), new Knight('W'), new Bishop('W'), new Queen('W'), new King('W'), new Bishop('W'), new Knight('W'), new Rook('W')},
                                     { new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W'), new Pawn('W')},
-                                    { new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'),},
-                                    { new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'),},
-                                    { new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'),},
-                                    { new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'), new Blank('E'),},
+                                    { new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '),},
+                                    { new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '),},
+                                    { new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '),},
+                                    { new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '), new Blank(' '),},
                                     { new Pawn('B'), new Pawn('B'), new Pawn('B'), new Pawn('B'), new Pawn('B'), new Pawn('B'), new Pawn('B'), new Pawn('B'),},
                                     { new Rook('B'), new Knight('B'), new Bishop('B'), new Queen('B'), new King('B'), new Bishop('B'), new Knight('B'), new Rook('B'),}  };
             printBoard(board);

@@ -16,7 +16,7 @@ namespace chess.Entities
 
         public void setColor(char color)
         {
-            if (color == 'W' || color == 'B' || color == 'E')
+            if (color == 'W' || color == 'B' || color == ' ')
             {
                 this.color = color;
             }
