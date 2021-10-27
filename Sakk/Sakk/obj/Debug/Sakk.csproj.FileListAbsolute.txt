@@ -1,0 +1,14 @@
+C:\Users\Andras\Documents\Sakk\Sakk\obj\Debug\Sakk.csproj.AssemblyReference.cache
+C:\Users\Andras\Documents\Sakk\Sakk\obj\Debug\Sakk.csproj.CoreCompileInputs.cache
+C:\Users\Andras\Documents\Sakk\Sakk\bin\Debug\Sakk.exe.config
+C:\Users\Andras\Documents\Sakk\Sakk\bin\Debug\Sakk.exe
+C:\Users\Andras\Documents\Sakk\Sakk\bin\Debug\Sakk.pdb
+C:\Users\Andras\Documents\Sakk\Sakk\obj\Debug\Sakk.exe
+C:\Users\Andras\Documents\Sakk\Sakk\obj\Debug\Sakk.pdb
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\obj\Debug\Sakk.csproj.AssemblyReference.cache
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\obj\Debug\Sakk.csproj.CoreCompileInputs.cache
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\obj\Debug\Sakk.exe
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\obj\Debug\Sakk.pdb
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\bin\Debug\Sakk.exe.config
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\bin\Debug\Sakk.exe
+C:\Users\farka\OneDrive\Asztali gép\AsztaliesMobilapi\Sakk\Sakk\bin\Debug\Sakk.pdb
