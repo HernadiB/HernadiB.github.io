@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.exe
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.deps.json
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.runtimeconfig.json
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.dll
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\ref\SakkFelkesz.dll
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\bin\Debug\net5.0\SakkFelkesz.pdb
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.dll
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\ref\SakkFelkesz.dll
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.pdb
+C:\Users\Lenovo\Desktop\SakkFelkesz\SakkFelkesz\obj\Debug\net5.0\SakkFelkesz.genruntimeconfig.cache
