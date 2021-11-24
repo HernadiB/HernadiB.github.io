@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Zongora",
+		"english": "piano",
+		"type": "billentyűs", 
+		"paragraphs": [
+			"A zongora billentyűs, polifón húros hangszer. Billentyűsorral összeköttetésben álló, kis kalapácsokkal megütött, hangszekrényben kifeszített fémhúrok adják a zenei hangot.", 
+			"Hangképzése mechanikus, alapszintű kezelése a többi hangszerhez képest egyszerű, viszonylag könnyen és gyorsan elsajátítható.",
+			"Népszerűségének oka az is, hogy egy játékos több szólamot képes egyidejűleg megszólaltatni rajta, így zenekari vagy kórusműveket, de akár operákat is könnyen előadhatunk segítségével."
+		],
+		"image": "zongora.jpg",
+		"color": "#fddfa1"
+	},
+	{
+		"name": "Cselló",
+		"english": "cello",
+		"type": "húros",
+		"paragraphs": [
+			"A cselló (gordonka, kisbőgő) egy nagy hangterjedelmű, basszus fekvésű vonós hangszer, és hasonlóan e hangszercsalád (hegedűcsalád) többi tagjához, vagyis a hegedűhöz, a brácsához és a nagybőgőhöz, ez a hangszer is négy húrral rendelkezik, melyek kvint távolságra vannak egymástól. A nagybőgő és a mélyhegedű közt a középső helyet foglalja el alakjára és hangterjedelmére nézve. ",
+			"A legmélyebb húr a C, melyet a G, a d és az a húrok követnek. Így a cselló hangolása pontosan egy oktávval van lejjebb a brácsához képest, egy oktávval és egy kvinttel a hegedűhöz képest.",
+			"A hegedűvel és a brácsával ellentétben, e hangszert játék közben a földre kell támasztani és ülve játszani rajta."
+		],
+		"image": "csello.jpg",
+		"color": "#f9dacc"
+	},
+	{
+		"name": "Fuvola",
+		"english": "traverse flute",
+		"type": "fúvós",
+		"paragraphs": [
+			"A fuvola aerofon hangszer, az ajaksípos hangszerek közé tartozik. Hangképzés szempontjából a legegyszerűbb hangszerek egyike, valódi fúvókája nincs is, a hangszert a játékos ajkai által a fejrészen lévő befúvónyílásra irányított levegőáram szólaltatja meg.",
+			"A fuvola csöve játék közben a fúvás irányára merőlegesen, oldalsó helyzetben áll, ezért harántfuvolának is nevezik. A különböző hangmagasságokat hanglyukakkal, billentyűzet segítségével lehet rajta képezni.",
+			"A fuvolát fúvástechnikája, zenekarbeli szerepe alapján a fafúvós hangszerek közé sorolják annak ellenére, hogy napjainkban már leggyakrabban fémből készül. A legmozgékonyabb hangú fúvós hangszer."
+		],
+		"image": "fuvola.jpg",
+		"color": "#c7aa92"
+	}
+]
